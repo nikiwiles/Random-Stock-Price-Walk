@@ -17,7 +17,7 @@ open System.Collections
 //** Parameters **//
 let startingPoint = 200             // Stock price random walk starts here
 let iterations = 600                // Number of steps in the random walk
-let window = 14                     // The lookbackWindow for the oscillator
+let window = 14                     // The lookback window for the oscillator
 let oscillatorMagnification = 25.0  // The slope is a number between -1 and 1, magnify it so it's more visible.
 
 // Random number generator, for our random stock price walk.
